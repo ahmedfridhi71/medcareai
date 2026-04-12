@@ -1,0 +1,125 @@
+# =============================================================================
+# MedCareAI Docker Compose
+# Development environment orchestration
+# =============================================================================
+
+version: "3.9"
+
+services:
+  # ---------------------------------------------------------------------------
+  # Backend API
+  # ---------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      target: development
+    container_name: medcareai-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - backend-cache:/app/__pycache__
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/medcareai
+      - REDIS_URL=redis://redis:6379/0
+      - APP_ENV=development
+      - DEBUG=true
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - medcareai-network
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Frontend
+  # ---------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      target: development
+    container_name: medcareai-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000/api/v1
+    depends_on:
+      - backend
+    networks:
+      - medcareai-network
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # PostgreSQL Database
+  # ---------------------------------------------------------------------------
+  db:
+    image: postgres:15-alpine
+    container_name: medcareai-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=medcareai
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - medcareai-network
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Redis Cache
+  # ---------------------------------------------------------------------------
+  redis:
+    image: redis:7-alpine
+    container_name: medcareai-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - medcareai-network
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # MLflow Tracking Server (optional, for ML experiments)
+  # ---------------------------------------------------------------------------
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.10.2
+    container_name: medcareai-mlflow
+    ports:
+      - "5000:5000"
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlflow.db --default-artifact-root /mlruns
+    volumes:
+      - mlflow-data:/mlruns
+    networks:
+      - medcareai-network
+    restart: unless-stopped
+
+# -----------------------------------------------------------------------------
+# Volumes
+# -----------------------------------------------------------------------------
+volumes:
+  postgres-data:
+  redis-data:
+  mlflow-data:
+  backend-cache:
+
+# -----------------------------------------------------------------------------
+# Networks
+# -----------------------------------------------------------------------------
+networks:
+  medcareai-network:
+    driver: bridge

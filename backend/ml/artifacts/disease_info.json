@@ -1,0 +1,2886 @@
+{
+  "abdominal aortic aneurysm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "abdominal hernia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "abscess of nose": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "abscess of the lung": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "abscess of the pharynx": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acanthosis nigricans": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acariasis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "achalasia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acne": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "actinic keratosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute bronchiolitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute bronchitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute bronchospasm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute fatty liver of pregnancy (aflp)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute glaucoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute kidney injury": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute otitis media": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute pancreatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute respiratory distress syndrome (ards)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute sinusitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "acute stress reaction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "adhesive capsulitis of the shoulder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "adjustment reaction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "adrenal adenoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alcohol abuse": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alcohol intoxication": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alcohol withdrawal": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alcoholic liver disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "allergy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "allergy to animals": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alopecia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "alzheimer disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "amblyopia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "amyotrophic lateral sclerosis (als)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anal fissure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anal fistula": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anemia due to chronic kidney disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anemia due to malignancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anemia of chronic disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "angina": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ankylosing spondylitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "anxiety": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "aortic valve disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "aphakia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "aphthous ulcer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "aplastic anemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "appendicitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "arrhythmia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "arthritis of the hip": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ascending cholangitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "asperger syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "aspergillosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "asthma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "astigmatism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atelectasis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "athlete's foot": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atonic bladder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atrial fibrillation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atrial flutter": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atrophic skin condition": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atrophic vaginitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "atrophy of the corpus cavernosum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "attention deficit hyperactivity disorder (adhd)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "autism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "autonomic nervous system disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "avascular necrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "balanitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bell palsy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "benign kidney cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "benign paroxysmal positional vertical (bppv)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "benign prostatic hyperplasia (bph)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "benign vaginal discharge (leukorrhea)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bipolar disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "birth trauma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bladder cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bladder disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bladder obstruction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "blepharitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "blepharospasm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bone cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bone disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bone spur of the calcaneous": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "brachial neuritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "brain cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "breast cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "breast cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "breast infection (mastitis)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "broken tooth": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bunion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "burn": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "bursitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "callus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "carbon monoxide poisoning": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cardiac arrest": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cardiomyopathy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "carpal tunnel syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cataract": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "celiac disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cellulitis or abscess of mouth": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "central atherosclerosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "central retinal artery or vein occlusion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cerebral edema": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cerebral palsy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cervical cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cervical disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cervicitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chalazion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chickenpox": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chlamydia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cholecystitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "choledocholithiasis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cholesteatoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chondromalacia of the patella": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chorioretinitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic back pain": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic constipation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic glaucoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic inflammatory demyelinating polyneuropathy (cidp)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic kidney disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic knee pain": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic obstructive pulmonary disease (copd)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic otitis media": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic pain disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic pancreatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic rheumatic fever": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "chronic sinusitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cirrhosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "coagulation (bleeding) disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cold sore": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "colonic polyp": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "colorectal cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "common cold": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "complex regional pain syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "concussion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conduct disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conductive hearing loss": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "congenital heart defect": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "congenital malformation syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conjunctivitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conjunctivitis due to allergy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conjunctivitis due to bacteria": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conjunctivitis due to virus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "contact dermatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "conversion disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cornea infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "corneal abrasion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "corneal disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "coronary atherosclerosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cranial nerve palsy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "crohn disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "croup": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "crushing injury": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cryptococcosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cryptorchidism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cushing syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cyst of the eyelid": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cystic fibrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cysticercosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "cystitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "de quervain disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "decubitus ulcer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "deep vein thrombosis (dvt)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "degenerative disc disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "delirium": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dementia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dental caries": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "depression": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dermatitis due to sun exposure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "developmental disability": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "deviated nasal septum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diabetes insipidus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diabetic ketoacidosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diabetic peripheral neuropathy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diabetic retinopathy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diaper rash": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the ankle": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the elbow": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the finger": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the foot": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the hip": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the shoulder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the vertebra": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dislocation of the wrist": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dissociative disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diverticulitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "diverticulosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "down syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug abuse": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug abuse (barbiturates)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug abuse (cocaine)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug abuse (methamphetamine)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug abuse (opioids)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug poisoning due to medication": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug reaction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "drug withdrawal": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dry eye of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dyshidrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "dysthymic disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ear drum damage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ear wax impaction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "eating disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ectopic pregnancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ectropion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "eczema": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "edward syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "emphysema": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "empyema": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "encephalitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "endocarditis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "endometrial cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "endometrial hyperplasia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "endometriosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "endophthalmitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "envenomation from spider or animal bite": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ependymoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "epididymitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "epidural hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "epilepsy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "erectile dysfunction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "erythema multiforme": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "esophageal cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "esophagitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "essential tremor": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "eustachian tube dysfunction (ear disorder)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "extrapyramidal effect of drugs": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "eye alignment disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "factitious disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "female genitalia infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "female infertility of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fetal alcohol syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fibroadenoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fibrocystic breast disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fibromyalgia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "flat feet": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "floaters": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "flu": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fluid overload": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "folate deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "food allergy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "foreign body in the ear": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "foreign body in the eye": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "foreign body in the gastrointestinal tract": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "foreign body in the throat": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "foreign body in the vagina": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the ankle": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the arm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the facial bones": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the finger": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the foot": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the hand": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the jaw": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the leg": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the neck": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the patella": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the pelvis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the rib": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the shoulder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the skull": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fracture of the vertebra": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "friedrich ataxia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "frostbite": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fungal infection of the hair": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "fungal infection of the skin": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "g6pd enzyme deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "galactorrhea of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gallstone": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ganglion cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gastritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gastroduodenal ulcer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gastroesophageal reflux disease (gerd)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gastrointestinal hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gastroparesis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "genital herpes": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gestational diabetes": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "glaucoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "glucocorticoid deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "goiter": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gonorrhea": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gout": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "granuloma inguinale": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "graves disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "guillain barre syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gum disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "gynecomastia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hammer toe": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "head and neck cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "head injury": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "headache after lumbar puncture": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "heart attack": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "heart block": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "heart contusion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "heart failure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "heat exhaustion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemangioma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemarthrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hematoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemiplegia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemolytic anemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemophilia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hemorrhoids": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hepatic encephalopathy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hepatitis due to a toxin": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "herniated disk": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "herpangina": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hiatal hernia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hidradenitis suppurativa": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hirschsprung disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hirsutism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "histoplasmosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hormone disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hpv": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hydatidiform mole": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hydrocele of the testicle": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hydrocephalus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hydronephrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypercalcemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypercholesterolemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyperemesis gravidarum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyperhidrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyperkalemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypernatremia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyperopia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyperosmotic hyperketotic state": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypertension of pregnancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypertensive heart disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypertrophic obstructive cardiomyopathy (hocm)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypocalcemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypoglycemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypokalemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hyponatremia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypothermia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypothyroidism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "hypovolemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic absence of menstruation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic excessive menstruation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic infrequent menstruation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic irregular menstrual cycle": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic nonmenstrual bleeding": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "idiopathic painful menstruation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ileus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "impetigo": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "impulse control disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "indigestion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "induced abortion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "infection of open wound": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "infectious gastroenteritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ingrown toe nail": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "inguinal hernia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury of the ankle": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to internal organ": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the abdomen": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the arm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the face": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the finger": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the hand": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the hip": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the knee": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the leg": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the shoulder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the spinal cord": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "injury to the trunk": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "insect bite": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "insulin overdose": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "interstitial lung disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intertrigo (skin condition)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intestinal cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intestinal disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intestinal malabsorption": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intestinal obstruction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intracerebral hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intracranial abscess": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "intracranial hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "iridocyclitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "iron deficiency anemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "irritable bowel syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ischemia of the bowel": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ischemic heart disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "itching of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "jaw disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "joint effusion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "juvenile rheumatoid arthritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "kidney cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "kidney disease due to longstanding hypertension": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "kidney failure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "kidney stone": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "knee ligament or meniscus tear": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "labyrinthitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lactose intolerance": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "laryngitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lateral epicondylitis (tennis elbow)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "leukemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lewy body dementia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lice": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lichen planus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lichen simplex": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lipoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "liver cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "liver disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lumbago": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lung cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lung contusion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lyme disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lymphadenitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lymphedema": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lymphogranuloma venereum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "lymphoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "macular degeneration": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "magnesium deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "malaria": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "male genitalia infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "malignant hypertension": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "marijuana abuse": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mastectomy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mastoiditis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "melanoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "meniere disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "meningioma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "meningitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "menopause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "metabolic disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "metastatic cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "migraine": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "missed abortion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mitral valve disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mittelschmerz": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "molluscum contagiosum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mononeuritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mononucleosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "moyamoya disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mucositis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "multiple myeloma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "multiple sclerosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "mumps": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "muscle spasm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "muscular dystrophy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "myasthenia gravis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "myoclonus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "myopia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "myositis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "narcolepsy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "nasal polyp": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "neonatal jaundice": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "nerve impingement near the shoulder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "neuralgia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "neurofibromatosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "neuropathy due to drugs": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "neurosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "nonalcoholic liver disease (nash)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "noninfectious gastroenteritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "normal pressure hydrocephalus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "nose disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "obsessive compulsive disorder (ocd)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "obstructive sleep apnea (osa)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "omphalitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "onychomycosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound from surgical incision": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the arm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the back": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the ear": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the eye": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the foot": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the lip": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the mouth": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the neck": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "open wound of the nose": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "oppositional disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "optic neuritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "oral mucosal lesion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "oral thrush (yeast infection)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "orbital cellulitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "orthostatic hypotension": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "osteoarthritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "osteochondroma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "osteochondrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "osteomyelitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "osteoporosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "otitis externa (swimmer's ear)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "otitis media": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "otosclerosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ovarian cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ovarian cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ovarian torsion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "overflow incontinence": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pain after an operation": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pain disorder affecting the neck": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pancreatic cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "panic attack": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "panic disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "parasitic disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "parathyroid adenoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "parkinson disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "paronychia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "paroxysmal supraventricular tachycardia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "paroxysmal ventricular tachycardia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pelvic fistula": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pelvic inflammatory disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pelvic organ prolapse": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pemphigus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pericarditis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peripheral arterial disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peripheral arterial embolism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peripheral nerve disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "perirectal infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peritonitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peritonsillar abscess": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "persistent vomiting of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "personality disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "peyronie disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pharyngitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "phimosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pilonidal cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pinguecula": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pinworm infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pituitary adenoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pituitary disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pityriasis rosea": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "placenta previa": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "placental abruption": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "plantar fasciitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pleural effusion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pneumoconiosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pneumonia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pneumothorax": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to analgesics": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to anticonvulsants": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to antidepressants": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to antihypertensives": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to antimicrobial drugs": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to antipsychotics": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to ethylene glycol": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to gas": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to opioids": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "poisoning due to sedatives": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "polycystic kidney disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "polycystic ovarian syndrome (pcos)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "polycythemia vera": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "polymyalgia rheumatica": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "post-traumatic stress disorder (ptsd)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "postoperative infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "postpartum depression": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "preeclampsia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pregnancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "premature atrial contractions (pacs)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "premature ovarian failure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "premature rupture of amniotic membrane": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "premature ventricular contractions (pvcs)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "premenstrual tension syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "presbyacusis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "presbyopia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "priapism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "primary immunodeficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "primary insomnia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "primary kidney disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "problem during pregnancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "prostate cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "prostatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "protein deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pseudohypoparathyroidism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pseudotumor cerebri": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "psoriasis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "psychosexual disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "psychotic disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pterygium": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonary congestion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonary embolism": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonary eosinophilia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonary fibrosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonary hypertension": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pulmonic valve disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pyelonephritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pyloric stenosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "pyogenic skin infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "raynaud disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "reactive arthritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "rectal disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "restless leg syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "retinal detachment": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "retinopathy due to high blood pressure": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "rhabdomyolysis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "rheumatoid arthritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "rosacea": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "rotator cuff injury": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "salivary gland disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sarcoidosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scabies": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scar": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scarlet fever": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "schizophrenia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sciatica": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scleritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scleroderma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "scoliosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "seasonal allergies (hay fever)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sebaceous cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "seborrheic dermatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "seborrheic keratosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sensorineural hearing loss": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sepsis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "septic arthritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "shingles (herpes zoster)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sialoadenitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sick sinus syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sickle cell anemia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sickle cell crisis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sinus bradycardia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sjogren syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "skin cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "skin disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "skin pigmentation disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "skin polyp": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "smoking or tobacco addiction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "social phobia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "soft tissue sarcoma": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "somatization disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spermatocele": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spherocytosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spina bifida": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spinal stenosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spinocerebellar ataxia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spondylitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spondylolisthesis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spondylosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "spontaneous abortion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "sprain or strain": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stenosis of the tear duct": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stomach cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "strep throat": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stress incontinence": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stricture of the esophagus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stroke": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "stye": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "subacute thyroiditis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "subarachnoid hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "subconjunctival hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "subdural hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "substance-related mental disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "syphilis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "syringomyelia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "systemic lupus erythematosis (sle)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "teething syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "temporary or benign blood in urine": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "temporomandibular joint disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tendinitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tension headache": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "testicular cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "testicular disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "testicular torsion": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thoracic aortic aneurysm": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thoracic outlet syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "threatened pregnancy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thrombocytopenia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thrombophlebitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thyroid cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thyroid disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "thyroid nodule": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tic (movement) disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tietze syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tinnitus of unknown cause": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tonsillar hypertrophy": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tonsillitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tooth abscess": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tooth disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "torticollis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tourette syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "toxic multinodular goiter": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "toxoplasmosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tracheitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "transient ischemic attack": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "trichiasis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "trichinosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "trichomonas infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tricuspid valve disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "trigeminal neuralgia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "trigger finger (finger disorder)": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tuberculosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "tuberous sclerosis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "ulcerative colitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urethral disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urethral stricture": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urethral valves": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urethritis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urge incontinence": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urinary tract infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "urinary tract obstruction": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "uterine atony": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "uterine cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "uterine fibroids": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "uveitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vacterl syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vaginal cyst": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vaginal yeast infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vaginismus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vaginitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "valley fever": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "varicocele of the testicles": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "varicose veins": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vasculitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "venous insufficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vertebrobasilar insufficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vesicoureteral reflux": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "viral exanthem": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "viral hepatitis": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "viral warts": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vitamin a deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vitamin b12 deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vitamin d deficiency": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vitreous degeneration": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vitreous hemorrhage": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vocal cord polyp": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "volvulus": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "von willebrand disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vulvar cancer": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vulvar disorder": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "vulvodynia": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "wernicke korsakoff syndrome": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "white blood cell disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "whooping cough": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "wilson disease": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "yeast infection": {
+    "icd10": "R69",
+    "severity": "moderate"
+  },
+  "zenker diverticulum": {
+    "icd10": "R69",
+    "severity": "moderate"
+  }
+}
