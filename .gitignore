@@ -43,7 +43,13 @@ htmlcov/
 # ML artifacts (tracked separately)
 backend/ml/artifacts/*.pkl
 backend/ml/artifacts/*.joblib
+backend/ml/artifacts/*.csv
 mlruns/
+
+# Sentence Transformers cache
+.cache/
+~/.cache/huggingface/
+~/.cache/torch/
 
 # ChromaDB
 backend/rag/chroma_db/

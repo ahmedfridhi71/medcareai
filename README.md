@@ -1,123 +1,369 @@
-# MedCareAI
+# 🏥 MedCareAI
 
-Advanced B2B/B2C medical decision-support platform combining supervised ML, LLM agents, RAG, and a full-stack web interface.
+An AI-powered medical decision-support platform that helps users understand their symptoms and get reliable health information.
 
-## Features
+---
 
-- **ML Disease Prediction**: RandomForest/XGBoost models with SHAP explainability
-- **LLM Conversation Agent**: Natural symptom extraction using Mistral AI
-- **RAG Scientific Agent**: Evidence-based explanations from medical literature
-- **Recommendation Engine**: Lifestyle and treatment suggestions with safety checks
-- **Role-Based Access**: Patient, Doctor, and Admin interfaces
-- **Full-Stack Web App**: React frontend with FastAPI backend
+## 🎯 What Does This Project Do?
 
-## Tech Stack
+MedCareAI combines **3 AI systems** to help users:
 
-| Layer | Technologies |
-|-------|-------------|
-| Backend | Python 3.11, FastAPI, SQLAlchemy (async), PostgreSQL, Redis |
-| ML | scikit-learn, XGBoost, SHAP, MLflow |
-| LLM/RAG | LangChain, Mistral AI, ChromaDB, BioBERT |
-| Frontend | React (Vite), Tailwind CSS, React Query |
-| Infra | Docker, GitHub Actions, Railway/Render |
-
-## Quick Start
-
-### Prerequisites
-
-- Python 3.11+
-- Node.js 18+
-- Docker & Docker Compose
-- PostgreSQL 15+
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/medcareai.git
-cd medcareai
-
-# Start all services with Docker
-docker-compose up -d
-
-# Or run locally:
-
-# Backend
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-# Frontend
-cd frontend
-npm install
-npm run dev
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                         MedCareAI Flow                              │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   👤 User: "I have headache and nausea"                             │
+│                     │                                               │
+│                     ▼                                               │
+│   ┌─────────────────────────────────────┐                          │
+│   │  Phase 1: ML Prediction             │                          │
+│   │  (Random Forest + XGBoost)          │                          │
+│   │  → "Prediction: Migraine (85%)"     │                          │
+│   └─────────────────────────────────────┘                          │
+│                     │                                               │
+│                     ▼                                               │
+│   ┌─────────────────────────────────────┐                          │
+│   │  Phase 2: Chat Agent (Mistral AI)   │                          │
+│   │  Asks follow-up questions           │                          │
+│   │  → Extracts symptoms from chat      │                          │
+│   └─────────────────────────────────────┘                          │
+│                     │                                               │
+│                     ▼                                               │
+│   ┌─────────────────────────────────────┐                          │
+│   │  Phase 3: RAG (ChromaDB + Mistral)  │                          │
+│   │  → "Migraine is a neurological      │                          │
+│   │     condition affecting 12% of      │                          │
+│   │     adults... [Source: WHO]"        │                          │
+│   └─────────────────────────────────────┘                          │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Environment Variables
+### The 3 Phases Explained Simply:
 
-Copy `.env.example` to `.env` and configure:
+| Phase | What It Does | Technology |
+|-------|--------------|------------|
+| **Phase 1: ML** | Predicts disease from symptoms | RandomForest (721 diseases, 377 symptoms) |
+| **Phase 2: Chat** | Has a conversation to collect symptoms | Mistral AI (LLM) |
+| **Phase 3: RAG** | Explains diseases with sources | ChromaDB + Mistral |
 
-```bash
-cp .env.example .env
-# Edit .env with your settings
-```
+---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 medcareai/
-├── backend/           # FastAPI backend
-│   ├── app/          # Application code
-│   ├── ml/           # ML training and inference
-│   ├── rag/          # RAG pipeline
-│   └── tests/        # Backend tests
-├── frontend/         # React frontend
-└── docker-compose.yml
+├── backend/                    # Python FastAPI server
+│   ├── app/                    # Web application
+│   │   ├── api/v1/             # API endpoints
+│   │   │   ├── predict.py      # /api/v1/predict - Disease prediction
+│   │   │   ├── chat.py         # /api/v1/chat - Conversational AI
+│   │   │   └── explain.py      # /api/v1/explain - RAG explanations
+│   │   ├── services/           # Business logic
+│   │   └── schemas/            # Data validation
+│   ├── ml/                     # Machine Learning
+│   │   ├── artifacts/          # Trained model + data (NOT in git)
+│   │   ├── predictor.py        # Prediction logic
+│   │   └── train.py            # Training script
+│   ├── rag/                    # RAG Pipeline
+│   │   ├── data/documents/     # Medical documents (txt/pdf)
+│   │   ├── chunker.py          # Splits documents into chunks
+│   │   ├── embedder.py         # Converts text to vectors
+│   │   ├── vector_store.py     # ChromaDB database
+│   │   └── rag_service.py      # RAG + LLM generation
+│   ├── scripts/                # Utility scripts
+│   │   └── rebuild_vectordb.py # Rebuild ChromaDB
+│   ├── tests/                  # Unit tests
+│   └── requirements.txt        # Python dependencies
+├── frontend/                   # React web app (coming soon)
+├── .env.example                # Environment template
+└── docker-compose.yml          # Docker setup
 ```
 
-## API Documentation
+---
 
-Once running, access the API docs at:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+## 🚀 Quick Start (Step by Step)
 
-## Development Phases
+### Prerequisites
 
-- [x] Phase 0: Environment setup
-- [x] Phase 1: ML prediction model (F1: 0.7072, 721 diseases)
-- [ ] Phase 2: LLM conversation agent
-- [ ] Phase 3: RAG scientific agent
-- [ ] Phase 4: Recommendation + safety
-- [ ] Phase 5: PostgreSQL database
-- [ ] Phase 6: Authentication + RBAC
-- [ ] Phase 7: Frontend patient side
-- [ ] Phase 8: Frontend doctor side
-- [ ] Phase 9: Docker + CI/CD
-- [ ] Phase 10: Advanced AI features
+You need these installed on your computer:
 
-## ML Model Performance
+- **Python 3.11+** ([Download](https://www.python.org/downloads/))
+- **Git** ([Download](https://git-scm.com/downloads))
+- **A Mistral API Key** ([Get free key](https://console.mistral.ai/))
 
-**Current**: RandomForest classifier with F1 Score 0.7072 (721 disease classes)
+### Step 1: Clone the Project
 
-### Future Improvements
+**On Linux/Mac:**
+```bash
+git clone https://github.com/yourusername/medcareai.git
+cd medcareai
+```
 
-| Strategy | Description | Expected Impact |
-|----------|-------------|-----------------|
-| **More Data** | Increase samples per disease class | +5-10% F1 |
-| **Symptom Severity** | Add mild/moderate/severe levels | +3-5% F1 |
-| **Hyperparameter Tuning** | GridSearchCV for optimal params | +2-4% F1 |
-| **SMOTE** | Synthetic oversampling for rare diseases | +3-5% F1 |
-| **Ensemble** | Combine RF + XGBoost + Neural Net | +5-8% F1 |
-| **Neural Network** | Deep learning for complex patterns | +5-10% F1 |
+**On Windows (PowerShell):**
+```powershell
+git clone https://github.com/yourusername/medcareai.git
+cd medcareai
+```
 
-*Note: 0.70 F1 for 721 classes is reasonable. Medical diagnosis is complex—production systems combine ML with physician review.*
+### Step 2: Download the Dataset
 
-## License
+The ML model needs training data. Download it from Kaggle:
 
-MIT License - See LICENSE file for details.
+1. Go to: https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
+2. Download `disease_symptom_dataset.csv`
+3. Rename it to `diseases_symptoms.csv`
+4. Put it in: `backend/ml/artifacts/diseases_symptoms.csv`
 
-## Disclaimer
+### Step 3: Set Up the Backend
 
-This is an academic/portfolio project. Not intended for real medical diagnosis. Always consult healthcare professionals for medical advice.
+**On Linux/Mac:**
+```bash
+cd backend
+
+# Create virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**On Windows (PowerShell):**
+```powershell
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it (PowerShell)
+.\venv\Scripts\Activate.ps1
+
+# If you get an error, run this first:
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**On Windows (CMD):**
+```cmd
+cd backend
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+### Step 4: Set Up Environment Variables
+
+1. Copy the example file:
+   ```bash
+   # Linux/Mac
+   cp .env.example .env
+   
+   # Windows
+   copy .env.example .env
+   ```
+
+2. Edit `.env` and add your Mistral API key:
+   ```
+   MISTRAL_API_KEY=your_key_here
+   ```
+
+### Step 5: Train the ML Model
+
+This creates the prediction model (takes 2-5 minutes):
+
+```bash
+# Make sure you're in backend/ with venv activated
+python -m ml.train
+```
+
+You should see output like:
+```
+Training ML model...
+Best model: RandomForest
+F1 Score: 0.7072
+Model saved to ml/artifacts/model.pkl
+```
+
+### Step 6: Build the RAG Database
+
+This indexes the medical documents:
+
+```bash
+python scripts/rebuild_vectordb.py --clear
+```
+
+You should see:
+```
+Processed 5 documents → 10 chunks
+Vector database is ready!
+```
+
+### Step 7: Run the Server
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The server starts at: **http://localhost:8000**
+
+### Step 8: Test It!
+
+Open your browser and go to: **http://localhost:8000/docs**
+
+This opens the **Swagger UI** where you can test all APIs:
+
+1. **Test Prediction:**
+   - Click `/api/v1/predict/predict`
+   - Click "Try it out"
+   - Enter: `{"symptoms": ["headache", "nausea", "fatigue"]}`
+   - Click "Execute"
+
+2. **Test RAG Explanation:**
+   - Click `/api/v1/explain/{disease_name}`
+   - Enter: `migraine`
+   - Click "Execute"
+
+3. **Test Chat:**
+   - Click `/api/v1/chat/start`
+   - Click "Execute" → Copy the `session_id`
+   - Click `/api/v1/chat/message`
+   - Enter session_id and message
+
+---
+
+## 🧪 Running Tests
+
+```bash
+# Make sure you're in backend/ with venv activated
+pytest tests/ -v
+```
+
+Expected output:
+```
+44 passed, 1 warning
+```
+
+---
+
+## 📚 API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/v1/predict/predict` | POST | Predict disease from symptoms |
+| `/api/v1/predict/symptoms` | GET | List all valid symptoms |
+| `/api/v1/chat/start` | POST | Start a chat session |
+| `/api/v1/chat/message` | POST | Send message to chat |
+| `/api/v1/chat/finalize/{id}` | POST | Get final prediction from chat |
+| `/api/v1/explain/` | GET | List available diseases |
+| `/api/v1/explain/{disease}` | GET | Get disease explanation with sources |
+| `/api/v1/explain/question` | POST | Ask a medical question |
+
+---
+
+## 🔧 Troubleshooting
+
+### "ModuleNotFoundError: No module named 'xxx'"
+Make sure your virtual environment is activated:
+```bash
+# Linux/Mac
+source venv/bin/activate
+
+# Windows PowerShell
+.\venv\Scripts\Activate.ps1
+
+# Windows CMD
+venv\Scripts\activate.bat
+```
+
+### "MISTRAL_API_KEY not configured"
+1. Make sure you have a `.env` file in the project root
+2. Add: `MISTRAL_API_KEY=your_actual_key`
+
+### "No model found"
+Run the training script:
+```bash
+cd backend
+python -m ml.train
+```
+
+### Windows: "Execution Policy" Error
+Run PowerShell as Administrator and execute:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### "FileNotFoundError: diseases_symptoms.csv"
+Download the dataset from Kaggle (see Step 2 above).
+
+---
+
+## 🏗 Tech Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Backend | FastAPI (Python) | Web server + API |
+| ML Model | RandomForest, XGBoost | Disease prediction |
+| LLM | Mistral AI + LangChain | Chat + explanations |
+| Vector DB | ChromaDB | Document search |
+| Embeddings | sentence-transformers | Text → vectors |
+| Frontend | React + Tailwind | Web interface |
+
+---
+
+## 📝 Adding More Medical Documents
+
+To add more diseases to the RAG knowledge base:
+
+1. Create a text file in `backend/rag/data/documents/`:
+   ```
+   TITLE: Disease Name
+   SOURCE: WHO / Medical Organization
+   URL: https://source-url.com
+   
+   Your content here...
+   ```
+
+2. Rebuild the vector database:
+   ```bash
+   python scripts/rebuild_vectordb.py
+   ```
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/my-feature`
+3. Make your changes
+4. Run tests: `pytest tests/ -v`
+5. Commit: `git commit -m "Add my feature"`
+6. Push: `git push origin feature/my-feature`
+7. Open a Pull Request
+
+---
+
+## ⚠️ Disclaimer
+
+This is an **educational project**. It is NOT a substitute for professional medical advice. Always consult a healthcare provider for medical decisions.
+
+---
+
+## 📄 License
+
+MIT License - feel free to use this project for learning!
+
+---
+
+## 🙋 Need Help?
+
+- Open an issue on GitHub
+- Check the Swagger docs at `/docs`
+- Read the code comments
+
+Happy coding! 🎉
