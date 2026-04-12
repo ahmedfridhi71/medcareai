@@ -1,0 +1,151 @@
+TITLE: Pneumonia
+SOURCE: WHO Fact Sheet / CDC
+URL: https://www.who.int/news-room/fact-sheets/detail/pneumonia
+
+OVERVIEW
+Pneumonia is an acute respiratory infection affecting the lungs, where the alveoli (air sacs) fill with pus and fluid, making breathing painful and limiting oxygen intake. It is a leading cause of death worldwide, particularly in children under 5 and adults over 65. Pneumonia accounts for 14% of all deaths in children under 5 years old globally.
+
+TYPES
+By causative agent:
+- Bacterial pneumonia (most common in adults)
+- Viral pneumonia
+- Fungal pneumonia (immunocompromised patients)
+- Aspiration pneumonia
+
+By acquisition:
+- Community-acquired pneumonia (CAP)
+- Hospital-acquired pneumonia (HAP)
+- Ventilator-associated pneumonia (VAP)
+
+CAUSES
+Bacterial:
+- Streptococcus pneumoniae (most common)
+- Haemophilus influenzae
+- Staphylococcus aureus
+- Mycoplasma pneumoniae (atypical)
+- Legionella pneumophila
+
+Viral:
+- Influenza viruses
+- Respiratory syncytial virus (RSV)
+- SARS-CoV-2 (COVID-19)
+- Adenoviruses
+- Rhinoviruses
+
+Fungal:
+- Pneumocystis jirovecii
+- Histoplasma
+- Cryptococcus
+
+RISK FACTORS
+- Age (under 2 or over 65 years)
+- Chronic diseases (asthma, COPD, heart disease, diabetes)
+- Weakened immune system
+- Smoking
+- Recent respiratory infection
+- Hospitalization (especially ICU)
+- Difficulty swallowing
+- Malnutrition
+
+SYMPTOMS
+Common symptoms include:
+- Cough (may produce mucus)
+- Fever, sweating, chills
+- Shortness of breath
+- Chest pain (worse with breathing or coughing)
+- Fatigue
+- Nausea, vomiting, diarrhea
+- Confusion (especially in older adults)
+
+Severe cases:
+- High fever
+- Rapid breathing
+- Low blood pressure
+- Blue-tinged lips or nails (cyanosis)
+- Altered mental status
+
+DIAGNOSIS
+Physical examination:
+- Lung auscultation (crackles, decreased breath sounds)
+- Vital signs assessment
+
+Diagnostic tests:
+- Chest X-ray (gold standard)
+- CT scan (if X-ray inconclusive)
+- Blood tests (CBC, inflammatory markers)
+- Sputum culture and Gram stain
+- Blood cultures
+- Pulse oximetry
+- Arterial blood gas (severe cases)
+- Urinary antigen tests (S. pneumoniae, Legionella)
+
+SEVERITY ASSESSMENT
+CURB-65 score:
+- Confusion
+- Urea >7 mmol/L
+- Respiratory rate ≥30/min
+- Blood pressure <90/60 mmHg
+- Age ≥65 years
+
+Score determines outpatient vs. hospital treatment.
+
+TREATMENT
+Bacterial pneumonia:
+- Antibiotics (amoxicillin, azithromycin, fluoroquinolones)
+- Duration typically 5-7 days
+- Severe cases may require IV antibiotics
+
+Viral pneumonia:
+- Supportive care
+- Antivirals for influenza (oseltamivir)
+- COVID-19: specific treatments as indicated
+
+Supportive care:
+- Oxygen therapy
+- Fluids
+- Pain relievers and fever reducers
+- Rest
+
+Severe/hospitalized cases:
+- IV antibiotics
+- Mechanical ventilation if needed
+- ICU care for critical patients
+
+COMPLICATIONS
+- Bacteremia (bacteria in bloodstream)
+- Pleural effusion
+- Empyema
+- Lung abscess
+- Acute respiratory distress syndrome (ARDS)
+- Respiratory failure
+- Sepsis
+- Death
+
+PREVENTION
+Vaccination:
+- Pneumococcal vaccines (PCV13, PPSV23)
+- Influenza vaccine annually
+- COVID-19 vaccines
+
+Lifestyle measures:
+- Good hand hygiene
+- Not smoking
+- Maintaining good health
+- Adequate nutrition
+- Treating underlying conditions
+
+PROGNOSIS
+Most healthy adults recover in 1-3 weeks. Factors affecting outcome:
+- Age
+- Overall health
+- Causative organism
+- Severity at presentation
+- Timeliness of treatment
+
+WHEN TO SEEK EMERGENCY CARE
+- Difficulty breathing
+- Persistent high fever (>102°F/39°C)
+- Bluish skin color
+- Confusion or altered mental status
+- Rapid heart rate
+- Symptoms not improving with treatment

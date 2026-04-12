@@ -85,7 +85,7 @@ def create_app() -> FastAPI:
         }
 
     # Include API routers
-    from app.api.v1 import chat, predict
+    from app.api.v1 import chat, explain, predict
 
     app.include_router(
         predict.router,
@@ -97,6 +97,12 @@ def create_app() -> FastAPI:
         chat.router,
         prefix="/api/v1/chat",
         tags=["Chat"],
+    )
+
+    app.include_router(
+        explain.router,
+        prefix="/api/v1/explain",
+        tags=["Explain"],
     )
 
     return app

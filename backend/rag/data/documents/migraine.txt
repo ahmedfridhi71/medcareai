@@ -1,0 +1,136 @@
+TITLE: Migraine
+SOURCE: WHO Fact Sheet / American Migraine Foundation
+URL: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+
+OVERVIEW
+Migraine is a neurological disease characterized by recurrent episodes of moderate to severe headache, often accompanied by nausea, vomiting, and sensitivity to light and sound. It affects approximately 12% of the global population and is three times more common in women than men. Migraine is the second leading cause of disability worldwide.
+
+TYPES OF MIGRAINE
+Migraine without aura (common migraine):
+- 70-75% of migraine cases
+- No warning signs before headache
+
+Migraine with aura:
+- 25-30% of cases
+- Visual, sensory, or speech disturbances precede headache
+- Aura typically lasts 20-60 minutes
+
+Other types:
+- Chronic migraine (≥15 headache days/month)
+- Hemiplegic migraine (temporary paralysis)
+- Vestibular migraine (vertigo symptoms)
+- Menstrual migraine
+- Silent migraine (aura without headache)
+
+PHASES OF MIGRAINE
+1. Prodrome (hours to days before):
+   - Mood changes
+   - Food cravings
+   - Neck stiffness
+   - Increased urination
+   - Yawning
+
+2. Aura (if present):
+   - Visual disturbances (flashes, blind spots)
+   - Tingling sensations
+   - Speech difficulties
+   - Weakness
+
+3. Headache:
+   - Typically unilateral, pulsating
+   - Moderate to severe intensity
+   - Worsened by physical activity
+   - Duration: 4-72 hours
+
+4. Postdrome:
+   - Fatigue
+   - Confusion
+   - "Hangover" feeling
+   - Mood changes
+
+SYMPTOMS
+During headache phase:
+- Throbbing or pulsating head pain
+- Pain on one or both sides
+- Nausea and vomiting
+- Photophobia (light sensitivity)
+- Phonophobia (sound sensitivity)
+- Osmophobia (smell sensitivity)
+- Blurred vision
+- Lightheadedness
+
+TRIGGERS
+Common migraine triggers include:
+- Hormonal changes (menstruation, pregnancy)
+- Stress or stress letdown
+- Sleep disturbances
+- Weather changes
+- Certain foods (aged cheese, alcohol, caffeine)
+- Food additives (MSG, nitrates)
+- Sensory stimuli (bright lights, loud sounds, strong smells)
+- Physical exertion
+- Medications (vasodilators, oral contraceptives)
+- Dehydration
+- Skipped meals
+
+DIAGNOSIS
+Based on clinical history:
+- At least 5 attacks meeting criteria
+- Headache lasting 4-72 hours
+- At least 2 of: unilateral, pulsating, moderate/severe, aggravated by activity
+- At least 1 of: nausea/vomiting, photophobia/phonophobia
+- Not attributed to another disorder
+
+Testing (to rule out other causes):
+- Neurological examination
+- MRI or CT scan if indicated
+- Blood tests
+
+TREATMENT
+Acute Treatment:
+- NSAIDs (ibuprofen, naproxen)
+- Triptans (sumatriptan, rizatriptan)
+- Ergotamines
+- Gepants (CGRP antagonists)
+- Anti-nausea medications
+- Ditans
+
+Preventive Treatment (for frequent migraines):
+- Beta-blockers (propranolol)
+- Antidepressants (amitriptyline)
+- Antiseizure drugs (topiramate, valproate)
+- CGRP monoclonal antibodies (erenumab, fremanezumab)
+- Botox injections
+- Blood pressure medications
+
+Non-pharmacological:
+- Biofeedback
+- Cognitive behavioral therapy
+- Acupuncture
+- Relaxation techniques
+- Regular sleep schedule
+- Exercise
+
+PREVENTION
+- Identify and avoid triggers
+- Maintain regular sleep patterns
+- Stay hydrated
+- Exercise regularly
+- Manage stress
+- Keep a headache diary
+- Consider dietary modifications
+
+WHEN TO SEEK MEDICAL CARE
+See a doctor if:
+- Headache pattern changes
+- Headaches become more severe or frequent
+- New type of headache
+- Over-the-counter medications don't help
+
+Seek emergency care for:
+- Sudden, severe headache ("thunderclap")
+- Headache with fever, stiff neck, rash
+- Headache after head injury
+- Headache with confusion or seizures
+- Double vision or vision loss
+- Weakness or numbness

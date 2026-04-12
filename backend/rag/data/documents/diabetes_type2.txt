@@ -1,0 +1,100 @@
+TITLE: Type 2 Diabetes Mellitus
+SOURCE: WHO Fact Sheet / American Diabetes Association
+URL: https://www.who.int/news-room/fact-sheets/detail/diabetes
+
+OVERVIEW
+Type 2 diabetes is a chronic metabolic disease characterized by elevated blood glucose levels (hyperglycemia) resulting from the body's ineffective use of insulin. It accounts for approximately 90-95% of all diabetes cases worldwide and is largely preventable through lifestyle modifications.
+
+PATHOPHYSIOLOGY
+In type 2 diabetes:
+1. Insulin resistance: Body cells don't respond properly to insulin
+2. Relative insulin deficiency: Pancreas cannot produce enough insulin to overcome resistance
+3. Progressive beta-cell dysfunction: Insulin-producing cells gradually fail
+
+RISK FACTORS
+Non-modifiable:
+- Age (>45 years)
+- Family history of diabetes
+- Ethnicity (higher risk in certain populations)
+- History of gestational diabetes
+
+Modifiable:
+- Overweight or obesity (BMI >25)
+- Physical inactivity
+- Unhealthy diet
+- Hypertension
+- Abnormal cholesterol levels
+- Polycystic ovary syndrome
+
+SYMPTOMS
+Type 2 diabetes often develops gradually. Symptoms include:
+- Increased thirst (polydipsia)
+- Frequent urination (polyuria)
+- Increased hunger (polyphagia)
+- Unintended weight loss
+- Fatigue
+- Blurred vision
+- Slow-healing sores
+- Frequent infections
+- Numbness or tingling in hands/feet
+- Areas of darkened skin (acanthosis nigricans)
+
+Many people remain asymptomatic for years, making screening essential.
+
+DIAGNOSIS
+Diagnostic criteria (any of the following):
+- Fasting plasma glucose ≥126 mg/dL (7.0 mmol/L)
+- 2-hour plasma glucose ≥200 mg/dL during oral glucose tolerance test
+- HbA1c ≥6.5%
+- Random plasma glucose ≥200 mg/dL with classic symptoms
+
+COMPLICATIONS
+Chronic hyperglycemia leads to:
+- Cardiovascular disease (heart attack, stroke)
+- Nephropathy (kidney disease)
+- Retinopathy (vision loss)
+- Neuropathy (nerve damage)
+- Foot problems potentially leading to amputation
+- Skin conditions
+- Hearing impairment
+- Alzheimer's disease association
+- Depression
+
+TREATMENT
+Lifestyle modifications:
+- Healthy eating patterns
+- Regular physical activity (150 min/week moderate exercise)
+- Weight management (5-10% loss significantly improves outcomes)
+- Smoking cessation
+
+Medications:
+- Metformin (first-line therapy)
+- Sulfonylureas
+- DPP-4 inhibitors
+- GLP-1 receptor agonists
+- SGLT2 inhibitors
+- Thiazolidinediones
+- Insulin (when other treatments insufficient)
+
+Monitoring:
+- Regular blood glucose self-monitoring
+- HbA1c testing every 3-6 months
+- Annual comprehensive exams (eyes, feet, kidneys)
+
+PREVENTION
+Type 2 diabetes can often be prevented or delayed through:
+- Maintaining healthy weight
+- Regular physical activity
+- Balanced diet rich in fiber, low in processed foods
+- Avoiding tobacco use
+- Regular health screenings
+
+Studies show lifestyle interventions can reduce diabetes risk by 58% in high-risk individuals.
+
+PROGNOSIS
+With proper management, people with type 2 diabetes can live long, healthy lives. Key factors for good outcomes include:
+- Maintaining near-normal blood glucose levels
+- Blood pressure control
+- Cholesterol management
+- Regular medical care
+- Patient education and self-management

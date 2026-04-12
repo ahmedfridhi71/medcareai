@@ -1,0 +1,71 @@
+TITLE: Common Cold (Acute Viral Rhinopharyngitis)
+SOURCE: WHO Health Topics / CDC
+URL: https://www.who.int/health-topics/common-cold
+
+OVERVIEW
+The common cold is a viral infection of the upper respiratory tract, primarily affecting the nose and throat. It is one of the most frequent infectious diseases in humans, with adults averaging 2-3 colds per year and children experiencing 6-8 annually.
+
+CAUSES
+The common cold is caused by over 200 different viruses, with rhinoviruses being the most common (30-50% of cases). Other causative agents include:
+- Coronaviruses (10-15%)
+- Respiratory syncytial virus (RSV)
+- Parainfluenza viruses
+- Adenoviruses
+- Enteroviruses
+
+TRANSMISSION
+Cold viruses spread through:
+1. Direct contact with infected secretions
+2. Airborne droplets from coughing or sneezing
+3. Touching contaminated surfaces then touching eyes, nose, or mouth
+The incubation period is typically 1-3 days.
+
+SYMPTOMS
+Common symptoms include:
+- Runny or stuffy nose (nasal congestion)
+- Sore throat
+- Cough
+- Sneezing
+- Low-grade fever (more common in children)
+- Mild headache
+- Body aches
+- Fatigue and malaise
+- Watery eyes
+
+Symptoms usually peak at 2-3 days and resolve within 7-10 days, though some symptoms may persist up to 2 weeks.
+
+COMPLICATIONS
+While usually self-limiting, the common cold can lead to:
+- Acute otitis media (ear infection)
+- Sinusitis
+- Exacerbation of asthma
+- Lower respiratory tract infections (bronchitis, pneumonia)
+
+TREATMENT
+There is no cure for the common cold. Treatment focuses on symptom relief:
+- Rest and adequate hydration
+- Over-the-counter pain relievers (acetaminophen, ibuprofen)
+- Decongestants
+- Antihistamines
+- Cough suppressants
+- Honey for cough (adults and children over 1 year)
+- Throat lozenges
+
+Antibiotics are NOT effective against viral infections and should not be used for the common cold.
+
+PREVENTION
+- Frequent handwashing with soap and water
+- Avoiding touching face with unwashed hands
+- Staying away from sick individuals
+- Disinfecting frequently touched surfaces
+- Maintaining good overall health through nutrition and sleep
+- No vaccine is available due to the large number of causative viruses
+
+WHEN TO SEEK MEDICAL CARE
+Consult a healthcare provider if:
+- Symptoms persist beyond 10 days
+- High fever (above 103°F/39.4°C)
+- Severe headache or sinus pain
+- Difficulty breathing or shortness of breath
+- Symptoms improve then worsen
+- Underlying health conditions that increase risk
