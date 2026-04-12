@@ -87,14 +87,35 @@ async def explain_prediction(
     return explanation
 
 
-async def get_available_symptoms(predictor: DiseasePredictor) -> List[str]:
+async def get_available_symptoms(predictor: DiseasePredictor) -> Dict:
     """
-    Get list of all valid symptom names.
+    Get list of all valid symptom names using predictor.
 
     Args:
         predictor: Loaded DiseasePredictor instance
 
     Returns:
+        Dictionary with symptoms list
+    """
+    return {"symptoms": predictor.get_available_symptoms()}
+
+
+def get_symptoms_vocabulary() -> List[str]:
+    """
+    Get list of all valid symptom names directly from file.
+    
+    Use this when predictor is not available.
+
+    Returns:
         List of symptom names
     """
-    return predictor.get_available_symptoms()
+    import json
+    from pathlib import Path
+    
+    artifacts_dir = Path(__file__).parent.parent.parent / "ml" / "artifacts"
+    feature_names_path = artifacts_dir / "feature_names.json"
+    
+    if feature_names_path.exists():
+        with open(feature_names_path) as f:
+            return json.load(f)
+    return []

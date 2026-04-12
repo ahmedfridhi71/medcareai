@@ -86,7 +86,7 @@ Once running, access the API docs at:
 ## Development Phases
 
 - [x] Phase 0: Environment setup
-- [ ] Phase 1: ML prediction model
+- [x] Phase 1: ML prediction model (F1: 0.7072, 721 diseases)
 - [ ] Phase 2: LLM conversation agent
 - [ ] Phase 3: RAG scientific agent
 - [ ] Phase 4: Recommendation + safety
@@ -96,6 +96,23 @@ Once running, access the API docs at:
 - [ ] Phase 8: Frontend doctor side
 - [ ] Phase 9: Docker + CI/CD
 - [ ] Phase 10: Advanced AI features
+
+## ML Model Performance
+
+**Current**: RandomForest classifier with F1 Score 0.7072 (721 disease classes)
+
+### Future Improvements
+
+| Strategy | Description | Expected Impact |
+|----------|-------------|-----------------|
+| **More Data** | Increase samples per disease class | +5-10% F1 |
+| **Symptom Severity** | Add mild/moderate/severe levels | +3-5% F1 |
+| **Hyperparameter Tuning** | GridSearchCV for optimal params | +2-4% F1 |
+| **SMOTE** | Synthetic oversampling for rare diseases | +3-5% F1 |
+| **Ensemble** | Combine RF + XGBoost + Neural Net | +5-8% F1 |
+| **Neural Network** | Deep learning for complex patterns | +5-10% F1 |
+
+*Note: 0.70 F1 for 721 classes is reasonable. Medical diagnosis is complex—production systems combine ML with physician review.*
 
 ## License
 

@@ -119,5 +119,6 @@ async def list_symptoms(
 
     Use these symptom names when making prediction requests.
     """
-    symptoms = await get_available_symptoms(predictor)
+    result = await get_available_symptoms(predictor)
+    symptoms = result["symptoms"]
     return SymptomsListResponse(symptoms=symptoms, count=len(symptoms))
