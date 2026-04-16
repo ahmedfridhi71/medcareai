@@ -40,18 +40,18 @@ mlflow==2.10.2
 
 # LLM & RAG
 langchain==0.1.6
-langchain-core==0.1.21
+langchain-core>=0.1.22
 langchain-community==0.0.19
 langchain-mistralai==0.0.3
 chromadb==0.4.22
 sentence-transformers==2.3.1
 
 # HTTP Client
-httpx==0.26.0
+httpx==0.25.2
 aiohttp==3.9.3
 
 # Testing
-pytest==8.0.0
+pytest==7.4.4
 pytest-asyncio==0.23.4
 pytest-cov==4.1.0
 

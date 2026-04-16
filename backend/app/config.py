@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     jwt_access_token_expire_minutes: int = 30
 
     # Mistral AI
-    mistral_api_key: str = ""
+    mistral_api_key: str = "BFSDkkc0B7SbPVTRQHRcWdhwdgoTskT2"
 
     # MLflow
     mlflow_tracking_uri: str = "http://localhost:5000"

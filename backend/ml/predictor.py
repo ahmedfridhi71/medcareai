@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Tuple
 
 import joblib
 import numpy as np
-import shap
+#import shap
 
 
 # Paths
@@ -60,7 +60,7 @@ class DiseasePredictor:
             self.disease_metadata = json.load(f)
 
         # Initialize SHAP explainer
-        self.explainer = shap.TreeExplainer(self.model)
+        #self.explainer = shap.TreeExplainer(self.model)
         self._is_loaded = True
 
     @property

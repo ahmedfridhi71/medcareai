@@ -5,6 +5,7 @@ Handles LLM-powered medical conversations for symptom extraction.
 """
 
 from fastapi import APIRouter, HTTPException
+from dotenv import load_dotenv
 
 from app.config import settings
 from app.schemas.chat import (
@@ -18,6 +19,7 @@ from app.schemas.chat import (
 )
 from app.services import conversation_service
 from app.services.ml_service import get_symptoms_vocabulary
+load_dotenv()
 
 router = APIRouter(tags=["Chat"])
 
