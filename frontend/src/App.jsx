@@ -1,34 +1,29 @@
 import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import Predict from './pages/Predict'
+import Chat from './pages/Chat'
+import Explain from './pages/Explain'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="predict" element={<Predict />} />
+        <Route path="chat" element={<Chat />} />
+        <Route path="explain" element={<Explain />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   )
 }
 
-function Home() {
+function NotFound() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8">
-      <div className="card max-w-lg text-center">
-        <h1 className="text-4xl font-bold text-primary-600 mb-4">
-          MedCareAI
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Advanced Medical Decision Support Platform
-        </p>
-        <div className="flex gap-4 justify-center">
-          <button className="btn-primary">
-            Get Started
-          </button>
-          <button className="btn-secondary">
-            Learn More
-          </button>
-        </div>
-      </div>
+    <div className="text-center py-24">
+      <h1 className="text-6xl font-serif font-bold text-ink-900">404</h1>
+      <p className="text-ink-600 mt-2">Page not found.</p>
     </div>
   )
 }

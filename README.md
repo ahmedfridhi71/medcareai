@@ -76,7 +76,15 @@ medcareai/
 │   │   └── rebuild_vectordb.py # Rebuild ChromaDB
 │   ├── tests/                  # Unit tests
 │   └── requirements.txt        # Python dependencies
-├── frontend/                   # React web app (coming soon)
+├── frontend/                   # React web app (Vite + Tailwind)
+│   ├── src/
+│   │   ├── api/                # axios clients (predict / chat / explain)
+│   │   ├── components/         # Layout, Spinner, etc.
+│   │   ├── pages/              # Home, Predict, Chat, Explain
+│   │   ├── App.jsx             # Routes
+│   │   └── index.css           # Tailwind theme (black + beige)
+│   ├── tailwind.config.js
+│   └── package.json
 ├── .env.example                # Environment template
 └── docker-compose.yml          # Docker setup
 ```
@@ -90,6 +98,7 @@ medcareai/
 You need these installed on your computer:
 
 - **Python 3.11+** ([Download](https://www.python.org/downloads/))
+- **Node.js 18+ and npm** ([Download](https://nodejs.org/)) — needed for the frontend
 - **Git** ([Download](https://git-scm.com/downloads))
 - **A Mistral API Key** ([Get free key](https://console.mistral.ai/))
 
@@ -212,7 +221,7 @@ uvicorn app.main:app --reload
 
 The server starts at: **http://localhost:8000**
 
-### Step 8: Test It!
+### Step 8: Test the API (Swagger)
 
 Open your browser and go to: **http://localhost:8000/docs**
 
@@ -234,6 +243,61 @@ This opens the **Swagger UI** where you can test all APIs:
    - Click "Execute" → Copy the `session_id`
    - Click `/api/v1/chat/message`
    - Enter session_id and message
+
+---
+
+## 🎨 Step 9: Run the Frontend (Web UI)
+
+The frontend is a friendly web page so you don't need Swagger to use the project. **Keep the backend running in its own terminal**, then open a **second terminal** for the frontend.
+
+### Step 9.1: Install the frontend
+
+**On Linux/Mac:**
+```bash
+cd frontend
+npm install
+```
+
+**On Windows (PowerShell or CMD):**
+```powershell
+cd frontend
+npm install
+```
+
+> The first install can take 1–2 minutes. It downloads React, Vite, Tailwind, etc.
+
+### Step 9.2: Start the frontend
+
+**On Linux/Mac:**
+```bash
+npm run dev
+```
+
+**On Windows (PowerShell or CMD):**
+```powershell
+npm run dev
+```
+
+You will see something like:
+```
+VITE v5.x ready in 120 ms
+  ➜ Local: http://localhost:5173/
+```
+
+Open **http://localhost:5173** in your browser. 🎉
+
+### Step 9.3: How to use each page
+
+The site has 4 pages in the top navigation. The theme is **black + beige**.
+
+| Page | URL | What to do |
+|------|-----|------------|
+| **Home** | `/` | Landing page. Click any feature card to jump to the matching tool. |
+| **Predict** | `/predict` | Type a word in the search box (e.g. `fever`) → click the symptom chips you want → click **Predict Disease** to see the top‑5 results, or **Explain (SHAP)** to see which symptoms pushed the model toward that disease. |
+| **Chat** | `/chat` | The assistant greets you automatically. Describe how you feel, answer its follow‑up questions, then click **Get Diagnosis** when you are ready. The system extracts symptoms and runs a prediction. |
+| **Explain** | `/explain` | Click any disease pill to read an evidence‑based explanation with **cited sources**, or type a free‑form question (e.g. *“What are early signs of diabetes?”*) and click **Ask**. |
+
+> Tip: keep two terminals open — one for the backend (`uvicorn`) and one for the frontend (`npm run dev`). Closing either one stops that part.
 
 ---
 
@@ -300,6 +364,29 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### "FileNotFoundError: diseases_symptoms.csv"
 Download the dataset from Kaggle (see Step 2 above).
+
+### Frontend: "npm: command not found" / "'npm' is not recognized"
+Node.js is not installed. Install it from https://nodejs.org/ (LTS version) and reopen your terminal.
+
+### Frontend: page loads but says "Network Error" / nothing happens
+1. Make sure the backend is running on **http://localhost:8000** in another terminal.
+2. Open the browser DevTools (F12) → Network tab and check that requests go to `localhost:8000/api/v1/...`.
+3. CORS errors? The backend already allows `localhost:5173` by default — restart `uvicorn` after editing `.env`.
+
+### Frontend: `npm run dev` fails with `ENOENT package.json`
+You are in the wrong folder. Make sure you ran `cd frontend` first:
+```bash
+# Linux/Mac
+cd /path/to/medcareai/frontend && npm run dev
+
+# Windows
+cd C:\path\to\medcareai\frontend
+npm run dev
+```
+
+### Port 5173 or 8000 already in use
+- **Linux/Mac:** find and kill the process: `lsof -i :5173` then `kill <PID>`
+- **Windows (PowerShell):** `netstat -ano | findstr :5173` then `taskkill /PID <PID> /F`
 
 ---
 
