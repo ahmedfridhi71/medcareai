@@ -172,15 +172,29 @@ class DiseasePredictor:
         predicted_class = self.model.predict(X)[0]
 
         # Handle multi-class SHAP values
+        # Newer SHAP returns ndarray of shape (n_samples, n_features, n_classes)
+        # Older versions return list[ndarray] (one per class)
+        import numpy as np
         if isinstance(shap_values, list):
             class_shap_values = shap_values[predicted_class][0]
         else:
-            class_shap_values = shap_values[0]
+            arr = np.asarray(shap_values)
+            if arr.ndim == 3:
+                # shape (n_samples, n_features, n_classes)
+                class_shap_values = arr[0, :, predicted_class]
+            elif arr.ndim == 2:
+                class_shap_values = arr[0]
+            else:
+                class_shap_values = arr
 
         # Create feature importance dictionary
         importance = {}
         for i, feature in enumerate(self.feature_names):
-            importance[feature] = float(class_shap_values[i])
+            val = class_shap_values[i]
+            # If still array-like (e.g. shape (n_classes,)), pick predicted class
+            if hasattr(val, "shape") and getattr(val, "ndim", 0) > 0:
+                val = val[predicted_class] if val.size > predicted_class else val.item()
+            importance[feature] = float(val)
 
         # Sort by absolute importance
         sorted_importance = sorted(
