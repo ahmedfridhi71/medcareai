@@ -19,21 +19,17 @@ from app.schemas.chat import (
 )
 from app.services import conversation_service
 from app.services.ml_service import get_symptoms_vocabulary
+
 load_dotenv()
 
+# ✅ FIX: REMOVE prefix="/chat"
 router = APIRouter(tags=["Chat"])
 
 
 @router.post("/start", response_model=ChatStartResponse)
 async def start_chat():
-    """
-    Start a new chat session.
-    
-    Returns a session ID and welcome message. The session is stored
-    in memory and tracks conversation history.
-    """
     session_id = conversation_service.create_session()
-    
+
     return ChatStartResponse(
         session_id=session_id,
         message="Hello! I'm MedCareAI, your medical assistant. What symptoms are you experiencing today?"
@@ -42,12 +38,6 @@ async def start_chat():
 
 @router.post("/message", response_model=ChatMessageResponse)
 async def send_message(request: ChatMessageRequest):
-    """
-    Send a message in an existing chat session.
-    
-    The AI assistant will respond and may ask follow-up questions.
-    When enough symptoms are gathered, `symptoms_ready` will be True.
-    """
     if not settings.mistral_api_key:
         raise HTTPException(
             status_code=500,
@@ -76,13 +66,6 @@ async def send_message(request: ChatMessageRequest):
 
 @router.post("/finalize", response_model=ChatFinalizeResponse)
 async def finalize_chat(request: ChatFinalizeRequest):
-    """
-    Finalize a chat session and extract symptoms.
-    
-    Extracts symptoms from the conversation and maps them to
-    the official symptom vocabulary used by the ML model.
-    Returns both raw and mapped symptoms.
-    """
     if not settings.mistral_api_key:
         raise HTTPException(
             status_code=500,
@@ -90,7 +73,6 @@ async def finalize_chat(request: ChatFinalizeRequest):
         )
     
     try:
-        # Get available symptoms vocabulary
         vocabulary = get_symptoms_vocabulary()
         
         result = await conversation_service.finalize_session(
@@ -114,11 +96,6 @@ async def finalize_chat(request: ChatFinalizeRequest):
 
 @router.get("/history/{session_id}", response_model=ChatHistoryResponse)
 async def get_chat_history(session_id: str):
-    """
-    Get conversation history for a session.
-    
-    Returns all messages exchanged in the session.
-    """
     messages = conversation_service.get_conversation_history(session_id)
     
     if messages is None:
@@ -132,11 +109,6 @@ async def get_chat_history(session_id: str):
 
 @router.delete("/{session_id}", response_model=ChatDeleteResponse)
 async def delete_chat_session(session_id: str):
-    """
-    Delete a chat session.
-    
-    Removes the session and all associated conversation history.
-    """
     deleted = conversation_service.delete_session(session_id)
     
     return ChatDeleteResponse(
@@ -147,9 +119,4 @@ async def delete_chat_session(session_id: str):
 
 @router.get("/sessions/count")
 async def get_sessions_count():
-    """
-    Get count of active chat sessions.
-    
-    Useful for monitoring system load.
-    """
     return {"active_sessions": conversation_service.get_active_sessions_count()}
